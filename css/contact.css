@@ -1,0 +1,175 @@
+*{box-sizing: border-box;}
+
+
+@font-face {
+  font-family: Agency FB;
+  src: url("http://allfont.net/download/agency-fb/");
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: white;
+  font-family: "Agency FB";
+}
+nav.navigation {
+  position: fixed;
+  margin: 0;
+  display: block;
+  z-index: 9999;
+}
+.linnk {
+  margin-right: 60px;
+  text-transform: uppercase;
+}
+nav.navigation a.link {
+  color: white;
+  
+  text-decoration: none;
+  
+}
+div.navigdiv {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding-left: 28vw;
+}
+.buttonnavi {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  float: right;
+}
+div.navwhite .navbtn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 4.8vh 2vh;
+  font-size: 5vh;
+  cursor: pointer;
+  float: right;
+  transition: 0.5s;
+}
+img.navcontent {
+  margin-top: 2.5vh;
+}
+  div.slider{
+    height: 100vh;
+    background-image: url("../images/tech.jpg");
+    background-color: navy;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div.slidertext{
+    padding-top: 14%;
+    text-align: center;
+    position: inherit;
+    text-transform: uppercase;
+  }
+
+
+  h1.slidertext{
+    margin-left: 14.2vw;
+    
+    font-size: 5vw;
+    width: 70vw;
+  }
+
+  p.slidertext{
+    font-size: 2vw;
+  }
+  .button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  display: grid;
+  margin: auto;
+  margin-top: 13vh;
+  cursor: pointer;
+  border-radius: 24px;
+  transition: all 0.5s;
+  width: 40%;
+}
+.button:hover {
+  background-color: #2176ff;
+  color: white;
+  transition: all 0.5s;
+}
+ .slider5 {
+  height: 120vh;
+  background-image: url("../images/contact.jpg");
+  background-color: lightblue;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1.text5 {
+  margin-top: 4px;
+  font-size: 60px;
+  width: 600px;
+  margin-left: 500px;
+}
+p.text5 {
+  margin-top: -20px;
+  width: 700px;
+  margin-left: 440px;
+
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+img.apps {
+  width: auto;
+  height: 15vw;
+  display: grid;
+  margin: auto;
+}
+ .footer {
+  height: 20vh;
+  background-color: #333333;
+}
+div.ftcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p.fttext {
+  margin: 0;
+  padding-top: 7vh;
+  width: 40%;
+}
+.ftimg {
+  padding-top: 3vh;
+  width: auto;
+  height: 10vh;
+}
+div.ftimg {
+  margin-left: 100vh;
+}
+div.iconcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.text1{
+  text-align: center;
+  font-size: 3vw;
+  font-weight: bold;
+}
+.icon{
+  margin-left: 2.7vw;
+}
+.text2{
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+

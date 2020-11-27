@@ -1,0 +1,199 @@
+
+@font-face {
+  font-family: Agency FB;
+  src: url("http://allfont.net/download/agency-fb/");
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: white;
+  font-family: "Agency FB";
+}
+nav.navigation {
+  position: static;
+  margin: 0;
+  display: block;
+  z-index: 9999;
+}
+.linnk {
+  margin-right: 60px;
+  text-transform: uppercase;
+}
+nav.navigation a.link {
+  color: white;
+  
+  text-decoration: none;
+  
+}
+div.navigdiv {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding-left: 28vw;
+  background-color: black;
+}
+.buttonnavi {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  float: right;
+}
+div.navwhite .navbtn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 4.8vh 2vh;
+  font-size: 5vh;
+  cursor: pointer;
+  float: right;
+  transition: 0.5s;
+}
+img.navcontent {
+  margin-top: 2.5vh;
+}
+
+  .choice{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 2vw;
+  }
+  .dropbtn {
+  background-color: white;
+  color: black;
+  
+  font-size: 16px;
+  border: 1px solid grey;
+  font-size: 1vw;
+
+}
+.arrow{
+  border-left: 1px solid black;
+  padding: 1vw;
+  margin-right: -0.5vw;
+}
+.huh{
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  margin-left: 5vw;
+}
+
+.dropdownstuff{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 15.2vw;
+ 
+  z-index: 1;
+}
+
+.dropdownstuff a {
+  color: black;
+  padding: 3px 5px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid grey;
+
+}
+.droptext{
+  font-size: 1vw;
+}
+
+.dropdown1{
+	margin-left:0vw;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.gallery{
+  margin-top: 5vh;
+  margin-left: 3vw;
+   margin-right: 3vw;
+}
+
+img.galleryimage{
+  width: 20vw;
+}
+.overlaytext{
+    display: grid;
+    text-align: left;
+    
+    margin-bottom: 5vh;
+    color: #2176ff;
+  }
+  .stuff {
+    display: flex;
+    flex-direction: row;
+    color: #2176ff;
+    width: 100%;
+  }
+  div.stuffcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -5vh;
+  }
+  div.galleryimage{
+    width: 20vw;
+    cursor: pointer;
+  }
+  div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0vw;
+  }
+
+ .footer {
+  height: 20vh;
+  background-color: #333333;
+}
+div.ftcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p.fttext {
+  margin: 0;
+  padding-top: 7vh;
+  width: 40%;
+}
+.ftimg {
+  padding-top: 3vh;
+  width: auto;
+  height: 10vh;
+}
+div.ftimg {
+  margin-left: 100vh;
+}
+  div.next{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    float: right;
+  }
+  a.next2{
+    margin-top: 4.5vh;
+    text-decoration: none;
+    color: grey;
+  }
+  .two{
+    width: auto;
+  }
+  .icons{
+    margin-left: -0.2vw;
+  }
+  p.next{
+    padding: 1vw;
+    border: 1px solid grey;
+    margin-right: 1vw;
+    cursor: pointer;
+  }
+

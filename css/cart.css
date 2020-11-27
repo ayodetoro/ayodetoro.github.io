@@ -1,0 +1,100 @@
+
+  * {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Agency FB;
+  src: url("http://allfont.net/download/agency-fb/");
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: white;
+  font-family: "Agency FB";
+}
+nav.navigation {
+  position: fixed;
+  margin: 0;
+  display: block;
+  z-index: 9999;
+  width: 100%;
+}
+.linnk {
+  margin-right: 60px;
+  text-transform: uppercase;
+}
+nav.navigation a.link {
+  color: white;
+  
+  text-decoration: none;
+  
+}
+div.navigdiv {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding-left: 28vw;
+  background-color: black;
+  width: 100%;
+}
+.buttonnavi {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  float: right;
+}
+div.navwhite .navbtn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 4.8vh 2vh;
+  font-size: 5vh;
+  cursor: pointer;
+  float: right;
+  transition: 0.5s;
+}
+img.navcontent {
+  margin-top: 2.5vh;
+}
+  
+
+ .footer {
+  height: 20vh;
+  background-color: #333333;
+}
+div.ftcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p.fttext {
+  margin: 0;
+  padding-top: 7vh;
+  width: 40%;
+}
+.ftimg {
+  padding-top: 3vh;
+  width: auto;
+  height: 10vh;
+}
+div.ftimg {
+  margin-left: 100vh;
+}
+
+  .stuff {
+    display: flex;
+    flex-direction: row;
+  }
+.cart{
+  height: 300px;
+}
+.cart2{
+  padding-top: 100px;
+  display: grid;
+  grid-row-gap: 100px;
+  grid-template-columns: auto auto auto;
+}
